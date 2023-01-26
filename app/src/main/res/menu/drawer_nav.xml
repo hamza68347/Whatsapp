@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/newNotification"
+        android:title="@string/new_status_notifications"
+        android:icon="@drawable/ic_notification"
+        app:actionLayout="@layout/switch_layout"
+        />
+    <item
+        android:id="@+id/autoSaveStatus"
+        android:title="@string/auto_save_status"
+        android:icon="@drawable/ic_saved_status"
+        app:actionLayout="@layout/switch_layout"/>
+    <item
+        android:id="@+id/directChat"
+        android:title="@string/direct_chat"
+
+        android:icon="@drawable/ic_msg"/>
+    <item
+        android:id="@+id/savedStatus"
+        android:title="@string/saved_status"
+        android:icon="@drawable/ic_saved_status"/>
+    <item
+        android:id="@+id/stickers"
+        android:title="@string/stickers"
+        android:icon="@drawable/ic_sticker_d"/>
+    <item
+        android:id="@+id/rateUs"
+        android:title="@string/rate_us"
+        android:icon="@drawable/ic_star"/>
+    <item
+        android:id="@+id/shareApp"
+        android:title="@string/share_app"
+        android:icon="@drawable/ic_share"/>
+    <item
+        android:id="@+id/needHelp"
+        android:title="@string/need_help"
+        android:icon="@drawable/ic_question"/>
+    <item
+        android:id="@+id/removeAds"
+        android:title="@string/remove_ads"
+        android:icon="@drawable/ic_perimiser"
+        />
+</menu>

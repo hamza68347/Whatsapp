@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:minHeight="?attr/actionBarSize"
+    android:background="?attr/colorPrimaryDark">
+
+        <ImageView
+            android:layout_width="@dimen/_22ssp"
+            android:layout_height="@dimen/_22ssp"
+            android:layout_weight="1"
+            android:layout_gravity="start"
+            android:contentDescription="@string/drawer_icon"
+            android:src="@drawable/ic_hamburger"
+          />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/_20ssp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/_7ssp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins"
+            android:textSize="@dimen/_16ssp"
+            android:textFontWeight="300"
+            android:text="WhatsApp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textFontWeight="700"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="@dimen/_16ssp"
+            android:layout_marginLeft="@dimen/_5ssp"
+            android:text="Status"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_caret_down"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="@dimen/_22ssp"
+        android:layout_height="@dimen/_22ssp"
+        android:layout_marginHorizontal="@dimen/_15ssp"
+        android:src="@drawable/ic_send"
+        android:layout_gravity="end"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:layout_width="@dimen/_22ssp"
+            android:layout_height="@dimen/_22ssp"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_whatsapp"
+       />
+
+
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <item android:id="@+id/status_nav"
+        android:title="@string/status"
+        android:icon="@drawable/ic_status"
+        />
+    <item android:id="@+id/sticker_nav"
+        android:title="@string/nav_stickers"
+        android:icon="@drawable/ic_sticker"
+        />
+
+    <item android:id="@+id/nav_recovery"
+    android:title="@string/nav_recovery"
+    android:icon="@drawable/ic_recovery"
+    />
+
+</menu>

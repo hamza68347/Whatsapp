@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Status Saver</string>
+    <string name="logo">logo</string>
+    <string name="info_icon">info icon</string>
+    <string name="how_to_use">How to Use?</string>
+    <string name="come_back">Come Back To App, Click on any Image or Video to View</string>
+    <string name="check">Check  The Desired Status / Story</string>
+    <string name="multiple">You can also use Multiple Save and Delete. Hold on any status to activate Multi Selection Mode, Select all the Statuses you want to Save and Click on Save / Delete Icon in the Toolbar.</string>
+    <string name="understand">I UnderStand</string>
+    <string name="status">Status</string>
+    <string name="nav_stickers">Stickers</string>
+    <string name="nav_recovery">Recovery</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_status_notifications">New Status Notifications</string>
+    <string name="auto_save_status">Auto Save Status</string>
+    <string name="direct_chat">Direct Chat</string>
+    <string name="saved_status">Saved Status</string>
+    <string name="stickers">Stickers</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share_app">Share App</string>
+    <string name="need_help">Need Help</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="open_drawer">open</string>
+    <string name="close_drawer">close</string>
+    <string name="drawer_icon">drawer icon</string>
+    <string name="images">Images</string>
+    <string name="video">Video</string>
+    <string name="saved">Saved</string>
+    <string name="all">All</string>
+    <string name="categories">Categories</string>
+    <string name="new_string">New</string>
+    <string name="message">Message</string>
+    <string name="media">Media</string>
+</resources>
